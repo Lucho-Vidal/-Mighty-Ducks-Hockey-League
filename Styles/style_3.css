@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+figure > img {
+    width: 300px;
+}
+
+.logo {
+    width: 100px;
+}
