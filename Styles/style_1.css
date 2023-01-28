@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: Comic-Sans ,sans-serif, Arial;
 }
+body {
+    margin-left: 10%;
+    width: 80%;
+}
 
 figure > img {
     width: 300px;
@@ -23,8 +27,6 @@ header {
     background-image: url(../Images/design1_image1.jpg);
     background-position: center;
     background-size: cover;
-    margin-left: 10%;
-    width: 80%;
     height: 350px;
     border: 1px solid black;
 }
@@ -42,12 +44,10 @@ div > h2 {
     text-align: center;
     margin-top: 5px;
     padding: 10px;
-    margin-left: 10%;
-    width: 80%;
 }
 
 
-aside > nav > a {
+div > nav > a {
     display: block;
     margin: 30px 10px;
     text-decoration: none;
@@ -55,17 +55,18 @@ aside > nav > a {
 }
 main {
     margin-top: 20px;
-    margin-left: 10%;
-    width: 80%;
     
 }
-main > aside {
+main > div {
     display: inline-block;
     margin: 0px 20px;
 }
 
-main > section {
+main > div {
     display: inline-block;
     margin: 0px 100px;
+}
 
+div > article > p {
+    width: 450px;
 }
