@@ -94,6 +94,9 @@ ol > li,
 ul > li{
     margin: 30px;
 }
+.circle {
+    list-style-type: circle;
+}
 
 p {
     font-size: 1.2rem;
@@ -110,30 +113,19 @@ caption > p {
     text-decoration: underline;
 }
 table{
-    background-color: antiquewhite;
-    border: 1px solid #000;
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    
 }
 
-th {
-    background-color: rgb(1, 114, 114);
-    border: 2px solid #000;
-    color: #fff;
-}
-tr {
-    background-color: rgb(192, 190, 204);
-    border: 1px solid #000;
 
-}
 td, th {
     padding: 12px 15px;
-    text-align: center;
+    text-align: left;
 }
-tbody  tr:nth-child(even){
-    background-color: #e6e5bd;
+.aling{
+    text-align: center;
 }
 
 div > p {
