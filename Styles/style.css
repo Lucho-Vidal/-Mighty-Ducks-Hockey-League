@@ -9,13 +9,20 @@ body {
     margin-left: 10%;
     width: 80%;
     background-color: #eee;
+    gap: 1rem;
 }
 header { 
-    background: #ddd;
-    min-height: 10vh;
+    background-image: url("../Images/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+    min-height: 30vh;
 }
 header>img {
-    width: 100%;
+    
+    
+    width: 80%;
     height: 300px;
 }
 header>h1 {
@@ -45,10 +52,10 @@ header>h1 {
 }
 
 nav {
-    min-height: 5vh;
+    min-height: 1vh;
     display: flex;
     flex-wrap: wrap;
-    background: #928783aa;
+    background: #92878311;
     justify-content: center;
 }
 
@@ -139,4 +146,72 @@ div > p {
     flex-wrap: wrap;
     justify-content: space-between
 }
+.map{
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 5px 4px 20px black
+    
+}
+.map:hover{
+    box-shadow: 1px 1px 10px black
+    
+}
 /* Info */
+/*Registration*/
+form{
+    border: 2px solid white;
+    background: #ddd;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin: 1rem 0px;
+}
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    
+}
+label{
+    color: #444;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+input[name="fname"],
+input[name="lname"],
+input[name="Address"],
+input[name="City"],
+input[name="Code"],
+input[name="Bdate"],
+input[name="parent"],
+input[name="date"]{
+    width: 20vw;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin: 0.5rem 2rem;
+}
+input[name="grade"],
+input[name="School"],
+input[name="position"],
+input[name="Uniform"],
+input[name="Code"],
+input[name="Bdate"],
+input[name="parent"],
+input[name="date"]{
+    margin: 0.5rem 1rem;
+}
+.submit{
+    width: 20vw;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin: 0.5rem 30%;
+}
+/*Registration*/
